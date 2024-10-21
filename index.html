@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Joken Pô</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Joken Pô</h1>
+
+        <div class="buttons">
+            <button id="rock" onclick=" playHuman('rock')">&#x1F44A;</button>
+            <button id="paper"  onclick=" playHuman('paper')">&#x1f590;</button>
+            <button id="scissosrs"  onclick=" playHuman('scissosrs')">&#x270c;</button>
+
+        </div>
+        <p class="result"></p>
+
+        <p class="sua-pontuaçao">Sua pontuação: <span id="human-score">0</span></p>
+        <p class="pontuaçao-da-maquina">Pontuação da Maquina: <span id="machine-score">0</span></p>
+    </div>
+
+    <script src="./arquivo.js"></script>
+
+</body>
+
+</html>
